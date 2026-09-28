@@ -1,4 +1,4 @@
-package com.bingeForge.demo.dto;
+package com.bingeForge.demo.dto.user;
 
 import com.bingeForge.demo.enums.UserRole;
 import lombok.Builder;

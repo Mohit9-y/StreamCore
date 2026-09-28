@@ -1,5 +1,6 @@
-package com.bingeForge.demo.dto;
+package com.bingeForge.demo.dto.auth;
 
+import com.bingeForge.demo.dto.user.UserResponse;
 import lombok.Builder;
 
 @Builder

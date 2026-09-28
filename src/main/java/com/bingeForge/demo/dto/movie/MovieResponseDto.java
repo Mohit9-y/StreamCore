@@ -1,4 +1,4 @@
-package com.bingeForge.demo.dto;
+package com.bingeForge.demo.dto.movie;
 
 import lombok.Builder;
 

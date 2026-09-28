@@ -1,5 +1,6 @@
 package com.bingeForge.demo.entity;
 
+import com.bingeForge.demo.enums.VideoStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -23,6 +24,13 @@ public class Movie {
 
     @Column(nullable = false, length = 1000)
     private String videoUrl;
+
+    @Column(length = 1000)
+    private String rawS3Key;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private VideoStatus status = VideoStatus.PENDING;
 
     @Column(nullable = false, length = 200 )
     private String title;

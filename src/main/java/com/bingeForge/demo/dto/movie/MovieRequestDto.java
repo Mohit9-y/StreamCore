@@ -1,4 +1,4 @@
-package com.bingeForge.demo.dto;
+package com.bingeForge.demo.dto.movie;
 
 import jakarta.validation.constraints.Digits;
 import jakarta.validation.constraints.NotBlank;

@@ -1,6 +1,6 @@
 package com.bingeForge.demo.controller;
 
-import com.bingeForge.demo.dto.*;
+import com.bingeForge.demo.dto.user.*;
 import com.bingeForge.demo.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

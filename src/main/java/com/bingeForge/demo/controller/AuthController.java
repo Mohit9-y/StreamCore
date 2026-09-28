@@ -1,8 +1,8 @@
 package com.bingeForge.demo.controller;
 
-import com.bingeForge.demo.dto.AuthResponse;
-import com.bingeForge.demo.dto.LoginRequest;
-import com.bingeForge.demo.dto.UserRegisterRequest;
+import com.bingeForge.demo.dto.auth.AuthResponse;
+import com.bingeForge.demo.dto.auth.LoginRequest;
+import com.bingeForge.demo.dto.auth.UserRegisterRequest;
 import com.bingeForge.demo.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

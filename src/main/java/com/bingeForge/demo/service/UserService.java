@@ -1,6 +1,7 @@
 package com.bingeForge.demo.service;
 
-import com.bingeForge.demo.dto.*;
+import com.bingeForge.demo.dto.auth.UserRegisterRequest;
+import com.bingeForge.demo.dto.user.*;
 import com.bingeForge.demo.entity.User;
 import com.bingeForge.demo.exception.ResourceNotFoundException;
 import com.bingeForge.demo.mapper.UserMapper;
